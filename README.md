@@ -87,7 +87,7 @@ This software can be used in one of three scenarios:
 
 ### Input files
 Input files to Phen2Gene should contain HPO IDs, separated by UNIX-recognized new line characters (i.e., `\n`).
-Alternatively you can use a space separated list of HPO IDs on the command line.
+Alternatively you can use a space separated list of HPO IDs on the command line. Note: please make sure that the knowledge base, skewness, and weights folders are present in the ./lib folder before running any following command lines. These folders should be installed when you run "bash setup.sh".
 
 ### Examples of how to run Phen2Gene with the `provided HPO_sample.txt` file
 
